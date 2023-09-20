@@ -24,7 +24,7 @@ let Person = {
     surname: "Məmmədəliyev",
     password: "****",
     fullname: function(name, surname, password) {
-        return `${this.name} ${this.surname}` ;
+        return `${this.name} ${this.surname} ` ;
     }
 }
 

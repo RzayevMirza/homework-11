@@ -23,17 +23,18 @@ let Person = {
     name: "Əlövsət",
     surname: "Məmmədəliyev",
     password: "****",
-    fullname: function  (name, surname, password) {
+    fullname: function(name, surname, password) {
         return `${this.name} ${this.surname}` ;
     }
 }
 
 
-let personFullName = Person.fullname
+let personFullName = Person.fullname();
 
 function upperFull () {
     document.getElementById(`goodjob`).innerHTML = personFullName;
 }
+
 
 
 

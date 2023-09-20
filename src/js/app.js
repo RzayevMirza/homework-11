@@ -32,7 +32,7 @@ let Person = {
 let personFullName = Person.fullname();
 
 function upperFull () {
-    document.getElementById(`goodjob`).innerHTML = personFullName;
+    document.getElementById(`goodjob`).innerHTML = personFullName.toUpperCase();
 }
 
 
